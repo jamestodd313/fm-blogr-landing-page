@@ -1,11 +1,16 @@
-// this is where you can handle all of your typography. 
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+
+body{
+    font-size: 16px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 4.5rem;
+}
 
 
-// example:
-
-// h1{
-//     font-size: 56px;
-// }
-// .text-small{
-//     font-size: 12px;
-// }
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
